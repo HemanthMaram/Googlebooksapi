@@ -1,0 +1,56 @@
+* {
+  background-color: #001;
+  color: #fff;
+}
+.input {
+  text-align: center;
+}
+.searchele {
+  width: 600px;
+  height: 40px;
+  margin-top: 50px;
+  background-color: #fff;
+  place-content: center;
+  color: black;
+}
+button {
+  margin-top: -10px;
+}
+
+.card {
+  height: 830px;
+}
+
+img {
+  height: 300px;
+}
+
+.info {
+  font-size: large;
+  background-color: #000;
+}
+#desc {
+  font-size: small;
+}
+.heading {
+  text-align: center;
+}
+.title {
+  height: 200px;
+  justify-content: center;
+}
+textarea {
+  background-color: rgb(162, 238, 162);
+  color: black;
+}
+
+#go {
+  margin-left: 10px;
+}
+li {
+  color: #001;
+}
+span {
+  background-color: black;
+  color: white;
+}
