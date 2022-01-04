@@ -35,6 +35,7 @@ async function searchit() {
     console.log(url + search);
     let resp = await fetch(url + search);
     let data = await resp.json();
+    document.getElementById("searchele").value ="";
     document.getElementById("main").innerHTML = "";
     display(data);
   } catch (err) {
